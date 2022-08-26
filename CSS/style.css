@@ -45,9 +45,7 @@
 .banner-area {
     background-image: url(../images/chiendort.jpg);
     background-size: cover;
-    background-position: center;
-    top: -150px;
-    height: 100vh;
+    height: 110%;
     width: 100%;
     position: fixed;
     z-index: -1;
@@ -68,7 +66,7 @@
     height: 100%;
     position: relative;
     background-color: aliceblue;
-    top: 600px;
+    top: 500px;
     overflow: hidden;
 }
 
@@ -76,6 +74,36 @@
     position: relative;
     padding-top: 250px;
     color: aliceblue;
+}
+
+
+
+@media screen and (max-width: 599px) {
+    .banner-area {
+        background-position: 17%;
+        top: -300px;
+    }
+    .banner-area p {
+        text-align: center;
+        top: 20%;
+    }
+    
+    
+}
+
+@media screen and (min-width: 600px) {
+    .content-area {
+        height: 100%;
+    }
+    .banner-area p {
+        text-align: start;
+        top: 20%;        
+        margin-left: 30%;
+    }
+    .banner-area {
+        top: -300px;
+    }
+
 }
 
 /*----------- ALL PAGES----------- */
@@ -107,31 +135,6 @@ h1::before {
 
 /*------------Image page INDEX-ACCUEIL / text over image----------*/
 
-
-@media screen and (max-width: 1380px) {
-    .banner-area {
-        background-position: left;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .banner-area {
-        background-position: 10%;
-    }
-
-    .banner-area p {
-        text-align: center;
-    }
-
-}
-
-@media screen and (min-width: 600px) {
-    .banner-area p {
-        margin-left: 30%;
-        text-align: left;
-    }
-
-}
 
 /*------------- Logo Facebook ---------*/
 .bulle {
