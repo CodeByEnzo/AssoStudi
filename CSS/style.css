@@ -84,7 +84,7 @@
 }
 @media screen and (max-width: 400px) {
     .banner-area {
-        top: -150px;
+        top: -100px;
     }
     .content-area{
         top: 400px;
