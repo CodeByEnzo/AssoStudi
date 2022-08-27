@@ -50,7 +50,7 @@
     width: 100%;
     position: fixed;
     z-index: -1;
-    top: -0.5%;
+    top: -0.1%;
 }
 
 .banner-area::after {
