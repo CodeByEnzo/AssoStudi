@@ -76,11 +76,19 @@
     padding-top: 250px;
     color: aliceblue;
 }
-@media screen and (min-width: 385px) {
+@media screen and (min-width: 401px) {
 
     .banner-area {
         top: -100px;
     } 
+}
+@media screen and (max-width: 400px) {
+    .banner-area {
+        top: -150px;
+    }
+    .content-area{
+        top: 400px;
+    }
 }
 /*-
 
