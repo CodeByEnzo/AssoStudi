@@ -15,6 +15,7 @@
 }
 
 /* ------------HEADER/NAV---------*/
+
 .navLinkMenu {
     text-align: center;
     text-decoration: none;
@@ -27,7 +28,6 @@
     color: #33ccff;
     transition: all 0.5s;
     border: 1px dashed #ff9900;
-    margin: 3px;
     border-radius: 3px;
 }
 
@@ -65,21 +65,25 @@
     color: aliceblue;
 }
 header {
-    position: absolute;
+    position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 @media screen and (min-width: 600px) {
     .content-area {
         top: 600px;
     }
-
     .banner-area {
         background-image: url(../images/chiendort.jpg);
         background-position: left center;
     }
+    .banner-area p {
+        padding-left: 30%;
+    }
 
 }
+/*--------Event page --------*/
 
 
 /*-
