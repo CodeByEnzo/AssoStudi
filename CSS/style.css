@@ -15,6 +15,11 @@
 }
 
 /* ------------HEADER/NAV---------*/
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
 
 .navLinkMenu {
     text-align: center;
@@ -32,12 +37,14 @@
 }
 
 .active-menu {
-    color: #33ccff;
+    color: #ff9900;
     transition: all 0.5s;
     padding: 3px;
     border-radius: 3px;
 }
 
+
+/*-----------Index page (accueil)----------*/
 .banner-area {
     background-image: url(../images/chiendortdevice.jpg);
     background-size: cover;
@@ -64,11 +71,6 @@
     padding-left: 15%;
     color: aliceblue;
 }
-header {
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-}
 
 @media screen and (min-width: 600px) {
     .content-area {
@@ -83,56 +85,6 @@ header {
     }
 
 }
-/*--------Event page --------*/
-
-
-/*-
-
-@media screen and (max-width: 400px) {
-    .banner-area {
-        top: -100px;
-    }
-    .content-area{
-        top: 400px;
-    }
-}
-@media screen and (max-width: 300px) {
-    .content-area {
-        top: 350px;
-    }
-    .banner-area p {
-        top: -40%;
-    }
-
-}
-@media screen and (max-width: 599px) {
-    .banner-area {
-        background-size: 1200px;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-position: 15%;
-        bottom: 47px;
-    }
-    .banner-area p {
-        text-align: center;
-        top: 15%;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .content-area {
-        height: 100%;
-    }
-    .banner-area p {
-        text-align: start;
-        top: 20%;        
-        margin-left: 30%;
-    }
-    .banner-area {
-        top: -300px;
-    }
-
-}*/
 
 /*----------- ALL PAGES----------- */
 h1,
@@ -153,18 +105,11 @@ h1::before {
     left: 0;
 }
 
-
-/* -----------page event-----------------*/
-
 .blue-item {
     color: #33ccff;
 }
 
-
-/*------------Image page INDEX-ACCUEIL / text over image----------*/
-
-
-/*------------- Logo Facebook ---------*/
+/*------------- Logo Facebook (fot the footer and contact page) ---------*/
 .bulle {
     width: 60px;
     height: 60px;
