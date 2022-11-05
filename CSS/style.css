@@ -22,28 +22,36 @@ header {
     position: fixed;
     width: 100%;
     z-index: 100;
+    box-sizing: border-box;
+}
+.nav-item{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
 }
 
 .navLinkMenu {
     text-align: center;
     text-decoration: none;
     color: rgb(170, 170, 170);
-    transition: all ease-out 0.5s;
     font-size: 20px;
+    padding: 5px;
 }
 
 .navLinkMenu:hover {
     color: #33ccff;
-    transition: all 0.5s;
     border: 1px dashed #ff9900;
     border-radius: 3px;
+    box-sizing: border-box;
+    margin: -1px;
+
+    
 }
+
 
 .active-menu {
     color: #ff9900;
-    transition: all 0.5s;
-    padding: 3px;
-    border-radius: 3px;
 }
 
 
