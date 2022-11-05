@@ -13,6 +13,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .content-area {
     overflow: hidden;
 }
@@ -24,7 +25,8 @@ header {
     z-index: 100;
     box-sizing: border-box;
 }
-.nav-item{
+
+.nav-item {
     width: 100px;
     height: 50px;
     text-align: center;
@@ -46,7 +48,7 @@ header {
     box-sizing: border-box;
     margin: -1px;
 
-    
+
 }
 
 
@@ -87,10 +89,12 @@ header {
     .content-area {
         top: 600px;
     }
+
     .banner-area {
         background-image: url(../images/chiendort.jpg);
         background-position: left center;
     }
+
     .banner-area p {
         padding-left: 30%;
     }
