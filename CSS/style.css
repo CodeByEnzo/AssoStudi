@@ -47,7 +47,7 @@ header {
     border-radius: 3px;
     box-sizing: border-box;
     margin: -1px;
-
+    transition: 0.5s;
 
 }
 
