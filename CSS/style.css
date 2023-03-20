@@ -110,7 +110,7 @@ h3 {
     color: #ff9900;
     font-family: 'Lobster', BAUHS93;
     position: relative;
-    z-index: 3;
+    z-index: 4;
 }
 
 h1::before {
