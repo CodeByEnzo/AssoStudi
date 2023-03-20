@@ -8,6 +8,7 @@
     src: url(/font/BAUHS93.woff) format("truetype");
     src: url(/font/BAUHS93.ttf) format("truetype");
 }
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luxurious+Script&display=swap');
 
 * {
     padding: 0;
@@ -106,7 +107,7 @@ h1,
 h2,
 h3 {
     color: #ff9900;
-    font-family: BAUHS93;
+    font-family: 'Lobster',BAUHS93 ;
     position: relative;
     z-index: 3;
 }
