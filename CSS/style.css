@@ -140,3 +140,20 @@ h1::before {
     cursor: pointer;
     position: relative;
 }
+
+.links {
+    text-decoration: none;
+        color: #ff9900;
+        font-weight: bold;
+}
+
+.links:hover {
+    color: #33ccff;
+    background: #000;
+}
+
+.borderLink {
+    border: 1px solid #33ccff;
+    padding: 10px;
+    border-radius: 10px;
+}
