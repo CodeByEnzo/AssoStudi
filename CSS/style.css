@@ -16,6 +16,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
 
 .content-area {
     overflow: hidden;
@@ -143,8 +147,10 @@ h1::before {
 
 .links {
     text-decoration: none;
-        color: #ff9900;
-        font-weight: bold;
+    color: #ff9900;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
 }
 
 .links:hover {
@@ -154,6 +160,15 @@ h1::before {
 
 .borderLink {
     border: 1px solid #33ccff;
-    padding: 10px;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+.borderLink:hover {
+    background: #000;
+}
+
+footer {
+    min-height: 150px;
+    bottom: 0;
 }
